@@ -1,0 +1,30 @@
+\include{header}
+
+\renewcommand{\href}[3]{\underline{#2}
+
+}
+\renewcommand{\url}{\underline}
+
+%\renewcommand{\@oddfoot}{}
+%\renewcommand{\@evenfoot}{}
+
+\usepackage{fancyhdr}  % колонтитулы
+\pagestyle{fancy}  % смена стиля оформления страниц
+\fancyhf{}  % очистка текущих значений
+%\fancyhead[C]{\thepage}  % верхний колонтитул
+%\fancyhead[C]{\fontsize{14pt}{18pt}\selectfont\thepage}  % верхний колонтитул 
+\fancyhead[C]{}  % верхний колонтитул 
+\renewcommand{\headrulewidth}{0pt}  % убрать разделительную линию
+
+
+\begin{document}
+
+\fontsize{12pt}{12pt}\selectfont
+
+\include{english}
+
+\pagebreak
+
+\include{russian}
+
+\end{document}
