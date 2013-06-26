@@ -8,6 +8,7 @@ resume:
 	#email
 	latex resume.tex
 	dvipdf resume.dvi
+	mv resume.pdf Alexander_Lopatin.pdf
 	#pdflatex resume.tex
 
 #printable_resume: resume
