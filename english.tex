@@ -8,7 +8,7 @@
 Resume
 \end{center}
 {
-\fontsize{11pt}{8pt}\selectfont
+\fontsize{10pt}{8pt}\selectfont
 \begin{center}
 \item birthday: 10 June 1990
 \item mobile phone: +7 911 83 66445
@@ -19,42 +19,52 @@ Resume
 \end{center}
 }
 
-\begin{flushright}
+%\begin{flushright}
 
-\fontsize{12pt}{13pt}\selectfont
+\fontsize{11pt}{12pt}\selectfont
+
 \section{Skills}
+
 \begin{itemize}
 
-\item native C and \bfseries C++ \mdseries
-(generally \bfseries Android\mdseries, iOS and \bfseries GNU/Linux\mdseries)
+\item programming
 
-\subitem OOP, basic design patterns, templates,
-\bfseries Qt \mdseries and
-\bfseries Marmalade \mdseries (aka \bfseries AirPlay\mdseries) frameworks,
-\bfseries JNI\mdseries,
-basic knowledge of OpenGL ES 2.0
+    \begin{itemize}
+    \item C and \bfseries C++\mdseries:
+    Qt, Marmalade (aka AirPlay), internal commercial frameworks and engines experience,
+    \bfseries JNI\mdseries, basic knowledge of OpenGL ES 2.0
 
-\subitem use of debug and analyse tools (gdb, valgrind, cppcheck, PVS-studio),
-Visual~Studio
+    %(generally cross-platform development for
+    %\bfseries Android\mdseries, iOS and \bfseries GNU/Linux\mdseries)
 
-\subitem compilers: \bfseries gcc/g++\mdseries, clang/clang++
+    \item Java (\bfseries Android\mdseries):
+    GUI, networking, parsing, databases, services, multithreading, filesystem, etc.
 
-\item Java (\bfseries Android\mdseries): GUI, networking, parsing, databases, services, multithreading, filesystem, etc.
+    %\item Objective-C (\bfseries iOS\mdseries): basic knowledge
 
-\item scripting with
-\bfseries Python \mdseries (networking, parsing, databases, etc.)
-and
-\bfseries UNIX shell (bash)\mdseries;
-a little experience with
-\bfseries Perl \mdseries and \bfseries Lua\mdseries
+    \item scripting with
+    \bfseries Python \mdseries (networking, parsing, databases, etc.)
+    and
+    \bfseries UNIX shell (bash)\mdseries;
+    a little experience with
+    \bfseries Perl \mdseries and \bfseries Lua\mdseries
 
-\item SQL (very base knowledge, relational model database designing)
+    \item SQL (base knowledge, relational model database designing)
 as SQLite, MySQL and PostgreSQL
+    \end{itemize}
 
-\item GNU make, cmake, qmake, Apache Ant as build systems
+\item tools
 
-\item version control with \bfseries git\mdseries, Perforce, svn or whatever else
-and bugtracking with Jira, Bugzilla, DevTrack, Launchpad, Mantis or whatever else
+    \begin{itemize}
+    \item Visual~Studio, XCode and vim with command-line tools as IDEs
+    \item \bfseries gcc/g++\mdseries, clang/clang++ as compilers
+    \item debug and analyse tools (gdb, lldb, valgrind, cppcheck, PVS-studio)
+    \item GNU make, cmake, qmake, Apache Ant as build systems
+    \item version control with \bfseries git\mdseries, Perforce, svn or whatever else
+    \item bugtracking with Jira, Bugzilla, DevTrack, Launchpad, Mantis or whatever else
+    \item Gentoo \bfseries GNU/Linux \mdseries certain user and developer;
+    experience with \bfseries Mac OS X \mdseries and Windows
+    \end{itemize}
 
 \end{itemize}
 
@@ -65,23 +75,40 @@ and bugtracking with Jira, Bugzilla, DevTrack, Launchpad, Mantis or whatever els
 Saint Petersburg (Russia)
 }
 \subitem Since \bfseries September, 2012 \mdseries ``Sofware Engineer I''
-\subitem Porting mobile game apps.
+\subitem Mobile game apps development: generally porting and debugging.
 \begin{itemize}
 \setlength{\itemindent}{20pt}
 \item
-    \href{http://www.windowsphone.com/en-us/store/app/tetris-blitz/806c88c7-528c-4563-9c0a-09ef31f14d61}
-    {\bfseries Tetris Blitz\mdseries}. \bfseries Windows Phone 8\mdseries:
-debugging OS-specific issues, graphics, content download system,
-GUI logic, other app logic, common bugs.
-Merging branches with large differences.\linebreak
-\bfseries Android\mdseries: fixing common bugs,
-    improving downloadable content system.
+    \href{https://play.google.com/store/apps/details?id=com.ea.tetrisblitz_row}
+        {\bfseries Tetris Blitz \mdseries}
+    \begin{itemize}
+        \item \bfseries Android\mdseries:
+        fixed common bugs,
+        added downloadable content via OBB (APK Expansion Files)
+    \end{itemize}
+    \begin{itemize}
+        \item \bfseries WP8\mdseries:
+        debugged OS-specific issues,
+        graphics,
+        content download system,
+        GUI logic,
+        other app logic,
+        common bugs.
+        Had merging branches experience with large differences
+    \end{itemize}
 \item
     \href{http://www.facebook.com/realracing}
-    {\bfseries Real Racing 3\mdseries}.
-    \bfseries Android\mdseries: bug fixing
-    (GUI, network, memory management, Mint3D graphical engine,
-    device-specific, etc.), iteraction with OS via JNI, etc.
+    {\bfseries Real Racing 3\mdseries}
+    \begin{itemize}
+        \item\bfseries Android\mdseries:
+        debugged
+        GUI,
+        network,
+        memory management,
+        Mint3D graphical engine,
+        device-specific issues.
+        Improved iteraction with OS
+    \end{itemize}
 \end{itemize}
 
 {
@@ -98,18 +125,19 @@ Velikiy Novgorod (Russia)
 \item
     \href{http://java.mob.org/game/phineas\_and\_ferb\_time\_travelers.html}
         {\bfseries Phineas and Ferb: Time Travelers\mdseries}.
-        Porting to different J2ME devices.
+        Debugged and ported to different J2ME devices
 \item
     \href{https://itunes.apple.com/us/app/panda-blair!/id500995558?mt=8}
         {\bfseries Panda Blair!\mdseries}
-        Developing additional game features (\bfseries iOS\mdseries),
-        porting to \bfseries Android \mdseries and \bfseries BlackBerry\mdseries.
+        Developed additional game features (\bfseries iOS\mdseries),
+        ported to \bfseries Android \mdseries and \bfseries BlackBerry\mdseries
 \end{itemize}
 
 \vspace{15pt}
 \subitem Since \bfseries September, 2011 \mdseries ``Junior QA Engineer''
-\subitem Manual testing of J2ME-applications.
-\subitem Internal activity automatization with \bfseries UNIX shell \mdseries and \bfseries Python \mdseries scripting.
+\subitem Manually tested J2ME-applications.
+\subitem Automatized internal activity with
+\bfseries UNIX shell \mdseries and \bfseries Python \mdseries scripting.
 
 \section{Education}
 \begin{itemize}
@@ -125,12 +153,10 @@ Intermediate level of \bfseries English \mdseries
 (enough to read/write any documentation and communicate with people);
 Russian is my native language.
 
-Gentoo \bfseries GNU/Linux \mdseries certain user and developer.
-Vim, tmux and related software.
-
 Fast learner of new technologies.
+
 I've passed military service in Russian Armed Forces.
 I don't smoke.
 
-\end{flushright}
+%\end{flushright}
 % vim: textwidth=0
