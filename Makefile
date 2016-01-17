@@ -8,12 +8,14 @@ resume:
 	#email
 	latex resume.tex
 	dvipdf resume.dvi
+	./optpdf.sh resume.pdf
 	mv resume.pdf Alexander_Lopatin.pdf
 	#pdflatex resume.tex
 
 #printable_resume: resume
 #	latex printable_resume.tex
 #	dvipdf printable_resume.dvi
+#	./optpdf.sh printable_resume.pdf
 #	#pdflatex printable_resume.tex
 
 clean:
