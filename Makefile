@@ -6,11 +6,11 @@ all: resume
 
 resume:
 	#email
-	latex resume.tex
-	dvipdf resume.dvi
+	#latex -halt-on-error resume.tex
+	#dvipdf resume.dvi
+	pdflatex -halt-on-error resume.tex
 	./optpdf.sh resume.pdf
 	mv resume.pdf Alexander_Lopatin.pdf
-	#pdflatex resume.tex
 
 #printable_resume: resume
 #	latex printable_resume.tex

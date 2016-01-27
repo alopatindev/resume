@@ -10,15 +10,19 @@
 \usepackage[dvips]{graphicx}
 
 \usepackage{geometry}  % установка полей
-\geometry{top=1cm,bottom=1cm,left=1cm,right=1cm}
+\geometry{top=0.7cm,bottom=1cm,left=0.7cm,right=1cm}
 %\parindent=15mm
 \parindent=5mm
 
 \usepackage[compact]{titlesec}
-\titlespacing{\section}{0pt}{0.4cm}{0.1cm}
+\titlespacing{\section}{0pt}{0.2cm}{0.2cm}
 
-\usepackage{sectsty,textcase}
-%\allsectionsfont{\MakeTextUppercase}
+\usepackage[letterspace=150]{microtype}
+
+\titleformat*{\section}{\centering\scshape\Large\bfseries}
+
+%\usepackage{fontspec}
+%\allsectionsfont{\textsc}
 
 %\usepackage{parskip}
 %\setlength{\parindent}{15pt}
