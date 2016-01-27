@@ -6,8 +6,14 @@
 \usepackage{misccorr}  % точка в заголовке
 \usepackage{setspace}  % интервалы
 %\onehalfspacing  % полутроный интервал
-\usepackage[pdfborder={0 0 0}, colorlinks=true, urlcolor=blue]{hyperref}
+
 \usepackage[dvips]{graphicx}
+\usepackage{xcolor}
+%%\usepackage{sectsty}
+%\definecolor{MyGray}{RGB}{117,117,117}
+\definecolor{MyBlue}{RGB}{1,87,155}
+
+\usepackage[pdfborder={0 0 0}, colorlinks=true, urlcolor=blue, allcolors=MyBlue]{hyperref}
 
 \usepackage{geometry}  % установка полей
 \geometry{top=0.7cm,bottom=0.7cm,left=0.7cm,right=1cm}
@@ -16,10 +22,6 @@
 
 \usepackage[compact]{titlesec}
 \titlespacing{\section}{0pt}{0.2cm}{0.2cm}
-
-%\usepackage{xcolor}
-%%\usepackage{sectsty}
-%\definecolor{MyGray}{RGB}{117,117,117}
 
 \usepackage[letterspace=150]{microtype}
 \titleformat*{\section}{\centering\scshape\Large\bfseries}
@@ -43,6 +45,8 @@
 
 \newcommand{\horizline}{\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}}
 
-\newcommand{\contactDelimiter}{\hspace{0.1cm}\textbullet\hspace{0.2cm}}
+\newcommand{\contactDelimiter}{\hspace{0.2cm}\textbullet\hspace{0.32cm}}
 
 %\usepackage{easylist}
+
+\usepackage{fontawesome}
